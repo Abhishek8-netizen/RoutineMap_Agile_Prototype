@@ -34,16 +34,6 @@ The prototype demonstrates this functionality through an interactive web interfa
 
 ---
 
-## Key Features
-
-* Activity recommendation based on user condition
-* Categorized activity intensity levels (Rest, Light, Moderate, Intense)
-* Task and activity addition with delete functionality
-* Clean and minimal user interface
-* Interactive HTML-based prototype
-
----
-
 ## Agile Methodology
 
 This project follows an Agile approach with user stories and sprint planning.
@@ -61,7 +51,7 @@ This project follows an Agile approach with user stories and sprint planning.
 ### Sprint Plan
 
 **Sprint 1 Goal:**
-Deliver a minimum viable prototype that recommends suitable activities based on user condition and allows users to add and manage daily tasks.
+Develop the application with the core functionality of enabling users to receive activity guidance and recommendations based on input from the user regarding their current mental and physical state along with basic task creation and reminder features
 
 **Sprint 1 Stories:**
 
@@ -70,7 +60,7 @@ Deliver a minimum viable prototype that recommends suitable activities based on 
 * Basic reminder concept
 
 **Sprint 2 Goal:**
-Enhance usability and accessibility through cross-device access and calendar integration.
+Incorporate multiple device support and integrate a calendar view so that users can sync their activities and tasks and maintain deadlines and schedules.
 
 **Sprint 2 Stories:**
 
