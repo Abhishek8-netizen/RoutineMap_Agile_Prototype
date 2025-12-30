@@ -40,10 +40,14 @@ This project follows an Agile approach with user stories and sprint planning.
 
 ### User Stories
 
-1. As a student, I want to set reminders so that I can maintain a consistent routine. <br>
+1. As a student, I want to set reminders so that I can maintain a consistent routine.
+
 2. As a student, I want to add tasks and activities so that I can keep track of my daily schedule.
+
 3. As a working professional, I want to access the application across multiple devices so that I can view my tasks from anywhere.
+
 4. As a working professional, I want to sync activities with a calendar view so that I can manage deadlines effectively.
+
 5. As a working professional, I want to receive activity recommendations based on my mental and physical state so that I do not overexert myself.
 
 ---
