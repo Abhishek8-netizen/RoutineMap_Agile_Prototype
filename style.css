@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One";
+    font-family: "Quicksand";
+    background-color: #121212;
+}
+
+/***********************************************************************************/
+
+.parallax {
+    background: linear-gradient(to bottom, black, #121212);
+    height: 100vh;
+}
+
+header div h1 {
+    position: absolute;
+    color: #D4AF37;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+
+header div h1 a {
+    background-color: #937832;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header div h1 a:hover {
+    background-color: #E2E2E2;
+    color: #937832;
+}
+
+/***********************************************************************************/
+
+.routine_matter {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/***********************************************************************************/
+
+#how_it_works {
+    padding-bottom: 5rem;
+}
+
+.process_card {
+    background-color: #1A1A1A;
+    width: 50%;
+    color: #E2E2E2;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    transform: translateX(-20px);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.process_card.show_process_card {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.process_card:hover {
+    transform: scale(1.05);
+}
+
+/***********************************************************************************/
+
+#simulator_link {
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#simulator_link div {
+    margin: auto;
+}
+
+#simulator_link h2 {
+    display: block;
+    margin: auto;
+}
+
+#simulator_link a {
+    border-radius: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #D4AF37;
+    transition: color 0.5s ease;
+}
+
+#simulator_link a:hover {
+    color: #E2E2E2;
+}

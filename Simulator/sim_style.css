@@ -1,0 +1,257 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    background-color: #1A1A1A;
+    font-weight: bolder;
+}
+
+span {
+    background-color: #5E4B1E !important;
+}
+
+#bodyGradient {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    pointer-events: none;
+}
+
+#bodyGradient.dull {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/***********************************************************************************/
+
+#form_input {
+    height: 100vh;
+    position: relative;
+    padding: 20rem;
+}
+
+#form_input h1 {
+    position: absolute;
+    color: #937832;
+    left: 8%;
+    width: 20%;
+    text-align: center;
+}
+
+#activity_recommendation {
+    position: absolute;
+    background-color: black;
+    color: #937832;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: -7px 7px 7px rgba(0, 0, 0, 0.7);
+
+    right: 2rem;
+    top: 50%;
+    height: 40rem;
+    width: 60%;
+    overflow-y: auto;
+    transform: translateY(-50%);
+}
+
+#activity_recommendation::-webkit-scrollbar {
+    width: 10px;
+}
+
+#activity_recommendation::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#activity_recommendation::-webkit-scrollbar-thumb {
+    background-color: #937832;
+    border-radius: 1.2rem;
+}
+
+#activity_recommendation button {
+    margin: auto;
+    background-color: #937832 !important;
+    color: black !important;
+    transition: color 0.2s ease;
+}
+
+#activity_recommendation button:hover {
+    color: white !important;
+}
+
+/***********************************************************************************/
+
+#activities {
+    height: 40rem;
+    width: 70%;
+    position: absolute;
+    padding: 5rem;
+    background-color: #1A1A1A
+        /*#121211*/
+    ;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+
+    z-index: 100;
+    transition: opacity 0.5s ease;
+}
+
+#activities.showPopup {
+    opacity: 1;
+}
+
+#activities button {
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #E2E2E2;
+    transition: color 0.2s ease;
+}
+
+#activities button:hover {
+    color: #937832;
+}
+
+#activity_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.activity_card {
+    background-color: black;
+    width: 25rem;
+    height: 7rem;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    color: #937832;
+
+    transition: transform 0.5s ease;
+}
+
+.activity_card:hover {
+    transform: scale(1.05);
+}
+
+/***********************************************************************************/
+
+#task_list {
+    margin-top: 5rem;
+    position: relative;
+    height: 100vh;
+}
+
+#task_list form {
+    position: absolute;
+    background-color: black;
+    color: #937832;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+
+    left: 2rem;
+    top: 50%;
+    height: 30rem;
+    width: 60%;
+    overflow-y: auto;
+    transform: translateY(-50%);
+}
+
+#task_list form button {
+    border: none;
+    background-color: #937832;
+    font-weight: bolder;
+    padding: 0.5rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+
+    display: block;
+    margin: auto;
+    transition: color 0.2s ease;
+}
+
+#task_list form button:hover {
+    color: white;
+}
+
+#task_container {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 25rem;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+#task_container::-webkit-scrollbar {
+    width: 10px;
+}
+
+#task_container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#task_container::-webkit-scrollbar-thumb {
+    background-color: #937832;
+    border-radius: 1.5rem;
+}
+
+#task_container div {
+    background-color: #E2E2E2;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+#task_container button {
+    border: none;
+    border-radius: 0.2rem;
+    margin-left: auto;
+    padding: 0.5rem;
+    background-color: rgb(151, 6, 6);
+    color: white;
+    transition: color 0.2s ease;
+}
+
+#task_container button:hover {
+    color: black;
+}
+
+#task_container div h5 {
+    color: black;
+}
