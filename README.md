@@ -4,7 +4,6 @@
 
 RoutineMap is an Agile-based digital prototype designed to support **SDG : Good Health & Well-Being**. The application helps users maintain a healthy and balanced daily routine by recommending activities based on their current mental and physical condition. It also allows users to add and manage simple daily tasks to stay organized.
 
-This project was developed as part of an academic assignment to demonstrate the application of **Agile concepts**, **user stories**, **sprint planning**, and a **working/visual prototype**.
 
 ---
 
