@@ -86,6 +86,4 @@ It includes a landing page explaining the system and a simulator page demonstrat
 
 ---
 
-## Author
-
 Developed as an individual Agile prototype project for academic purposes.
