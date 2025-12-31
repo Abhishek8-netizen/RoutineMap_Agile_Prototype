@@ -1,9 +1,9 @@
 function recommend() {
     const activities = {
-        "REST": ["Meditation", " Light Yoga", "Breathing Exercises", "Just Sleep"],
-        "LIGHT": ["Short Walk", "Yoga", "Light Stretching Exercises", "Mobility Exercises"],
+        "REST": ["Meditation", " Light Yoga", "Breathing Exercises", "Short Walk"],
+        "LIGHT": ["Jogging", "Yoga", "Light Stretching Exercises", "Mobility Exercises"],
         "MODERATE": ["Short Run", "Bodyweight Workout", "Cycling", "Recreational Sports"],
-        "INTENSE": ["Running", "Heavyweight Workout", "Cycling", "Just Sleep"]
+        "INTENSE": ["Sprinting", "Heavyweight Workout", "Cycling", "Swimming"]
     };
 
     const age = document.getElementById("exampleInputAge").value;
@@ -114,5 +114,6 @@ function addTask() {
         document.getElementById("taskInput").value = "";
         document.getElementById("timeInput").value = "";
     }
+
 
 }
